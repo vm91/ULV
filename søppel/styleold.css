@@ -1,0 +1,683 @@
+html, body{
+	height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#header{
+	padding: 0;
+	margin: 0;
+}
+#rootContainer {
+        background-image: url(../bilder/mainbak.png);
+	background-repeat: repeat;
+	min-height: 100%;
+}
+
+
+/* HeaderValg ------------------------------------- */
+
+#headerValg {
+    background-image: url(../bilder/menybunn.png);
+    background-repeat: repeat-x;
+    box-shadow: 0px 2px 6px #888888;
+    /* background-color:#d54208;
+    height: fit-content;
+    min-height: 100px;*/
+}
+
+#headerValgList {
+    height: 100px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 700px;
+}
+
+#headerValgList li{
+        float: left;
+        list-style-type: none;
+        margin: 5px;
+        margin-top: 20px;
+        padding: 0px;
+        width: 170px;
+        height: 60px;
+        background-image: url(../bilder/button.png);
+        background-repeat: repeat-x;
+        /*background-color: #008CD7;*/
+        border-radius: 10px;
+        display: table; 
+}
+
+#headerValgList a:link {
+        color: #FFF;
+        font-size: 30px;
+        font-weight:800;
+        text-decoration: none;
+        display: table-cell; 
+        vertical-align: middle;
+        text-align: center;
+}
+#headerValgList a:hover {
+        background-color: #3366CC;
+        border-radius: 10px;
+}
+#headerValgList a:visited {
+        color: #FFF;
+}
+#headerValgList a:active {
+        color: #ff0033;
+}
+
+#headerValgNewCourse {
+        position:absolute;
+        top:80px;
+        right:20px;
+        width: 170px;
+        height: 60px;
+        background-color: #48c83b;
+        border-radius: 10px;
+        display: table; 
+}
+
+#headerValgNewCourse a:link {
+        color: #FFF;
+        font-size: 30px;
+        font-weight:800;
+        text-decoration: none;
+        display: table-cell; 
+        vertical-align: middle;
+        text-align: center;
+}
+#headerValgNewCourse a:hover {
+        background-color: #37b72a;
+        border-radius: 10px;
+}
+#headerValgNewCourse a:visited {
+        color: #FFF;
+}
+#headerValgNewCourse a:active {
+        color: #ff0033;
+}
+
+/* CourseValg ------------------------------------- */
+
+#courseValg {
+    background-image: url(../bilder/coursevalg3.png);
+    background-repeat: repeat-x;
+    box-shadow: 0px 10px 6px #888888;
+    /*
+    border-top-color: #3F4444;
+    border-top-width: 2px;
+    border-top-style: solid;
+    background-color:#d54208;
+    height: fit-content;
+    min-height: 100px;*/
+}
+
+#courseValgList {
+    height: 50px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 700px;
+}
+
+#courseValgList {
+	margin: 0 auto;
+	list-style-type: none;
+	height: 50px;
+	width: 650px;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+#courseValgList li {
+	float: left;
+}
+#courseValgList a {
+	/*background-image: url(divider.png);
+	background-repeat: no-repeat;
+	background-position: right;*/
+	padding-right: 32px;
+	padding-left: 32px;
+	display: block;
+	line-height: 50px;
+	text-decoration: none;
+	font-family: Sans-serif, "Times New Roman", Times, serif;
+	font-size: 21px;
+	color: #D6D6D9;
+}
+#courseValgList a:hover {
+	background-color: rgba(51, 102, 204, 0.6);
+	color: #FFF;
+}
+#courseValgList a:hover:after {
+    content: '';
+    position: absolute;
+    top: 160px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid rgba(213, 66, 8, 1);
+}
+
+
+/* NEWSFEED (Left column) ------------------------*/
+
+#container {
+        position: relative;
+}
+
+#newsfeed {
+	margin-top: 10px;
+        margin-left: 20px;
+	width: 650px;
+	padding-bottom: 150px;
+        float: left;
+}
+
+#newsfeedStrek {
+	margin-bottom: 5px;
+	width: 640px;
+	height:3px;
+	background-color:#3F4444;
+}
+
+#newsfeedArea {
+        position:relative;
+}
+
+#newsfeedList li {
+	float: left;
+        list-style-type: none;
+        margin: 5px;
+        height: 140px;
+        width: 290px;
+        background-image: url(../bilder/ropert2.png);
+        background-repeat: no-repeat;
+        color: #000;
+        padding: 10px;
+}
+
+#newsfeedList li.msg {
+	float: left;
+        list-style-type: none;
+        margin: 5px;
+        height: 140px;
+        width: 290px;
+        background-image: url(../bilder/mail2.png);
+        background-repeat: no-repeat;
+        color: #000;
+        padding: 10px;
+}
+
+#newsfeedListLink {
+        position:absolute;
+        top:0;
+        left:0; 
+}
+
+#newsfeedListLink li {
+	float: left;
+        list-style-type: none;
+        margin: 5px;
+        margin-bottom: 15px;
+        height: 150px;
+        width: 310px;
+        box-shadow: 0px 2px 6px #888888;
+}
+/*
+#newsfeedListLink li:hover {
+        box-shadow: 0px 2px 8px #000;
+        background:rgba(0, 0, 0, 0.6);
+}
+*/
+
+        
+#newsfeedListFooter{
+        position:absolute;
+        top:0;
+        left:0;
+}
+
+#newsfeedListFooter li{
+        float: left;
+        list-style-type: none;
+        background:rgba(0, 0, 0, 0.6);
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom: 15px;
+        margin-top: 110px;
+        
+        padding: 5px;
+        height: 35px;
+        width: 300px;
+        
+        color: #FFF;
+        font-family: "Sans-serif", Times, serif;
+        font-weight:800;
+        font-size: 29px;
+}
+
+
+/*
+#newsfeedListFooter h2 {
+        color: #F66;
+        font-weight:800;
+        font-size: 24px;
+}*/
+
+/* CALENDER (Right column) ------------------------*/
+
+#calender{
+	margin-top: 10px;
+        margin-left: 20px;
+	width: 350px;
+	padding-bottom: 150px;
+        float: left;
+}
+
+#frister{
+        font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+        width:100%;
+        border-collapse:collapse;
+}
+
+#frister td, #frister th {
+        font-size:1em;
+        border:1px solid #3F4444;
+        padding:3px 7px 2px 7px;
+}
+#frister th {
+        font-size:1.1em;
+        text-align:left;
+        padding-top:5px;
+        padding-bottom:4px;
+        background-color:#A7C942;
+        color:#ffffff;
+}
+
+#frister tr.alt td {
+        color:#000000;  
+        background-color: #008CD7;
+}
+
+
+/* Valg ------------------------------------------------------ */	
+
+section {
+    display: block;
+} 
+
+/*ramme*/
+.mappeVisning {
+    margin: 10px auto;
+    width: 600px;  
+    padding: 20px;
+}
+
+/*indre ramme*/
+.mappeVisning section {
+	border-bottom: 1px solid #000;
+	margin-top: 8px;
+	background-image: url(../bilder/coursevalg3.png);
+        background-repeat: repeat;
+        box-shadow: 3px 6px 5px #888888;
+}
+
+.mappeVisning h2 a {
+	display: block;
+	position: relative;
+	padding: 10px;
+        border-radius: 0px;
+	text-decoration: none;
+        font-family: Sans-serif, "Times New Roman", Times, serif;
+	font-size: 21px;
+	color: #D6D6D9;
+}
+
+.mappeVisning h2 a:hover
+{
+	background: rgba(51, 102, 204, 0.6);
+}
+
+.mappeVisning h2 + div
+{
+	height: 0;
+	overflow: hidden;
+}
+.mappeVisningInnhold {
+    background-color: #fff;
+}
+
+/*tap som forteller hvor du er*/
+.mappeVisning :target h2 a:after
+{
+	content: '';
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -3px;
+	border-top: 12px solid #d54208;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+}
+
+/*magisk box som kommer fram*/
+.mappeVisning :target h2 + div
+{
+	height: auto;
+	margin: 5px;
+}
+
+#fagstoffFilListe a:link{
+        text-decoration: none;   
+        
+}
+#fagstoffFilListe li{
+        list-style-type: none;
+        width: 100%;
+}
+#fagstoffFilListeDiv {
+    display: table;
+    padding: 8px;
+}
+#fagstoffFilListe li:hover{
+        background-color: rgba(51, 102, 204, 0.6);
+}
+
+#fagstoffFilListe .fagstoffFilListeText {
+        color: #333;
+        font-size: 26px;
+        display: table-cell; 
+        vertical-align: middle;
+        text-align: left;
+        margin:0px; 
+}
+
+
+/* BUNN.html  -------------------------------------*/
+#infoBar{
+	background-image: url(../bilder/bg53.png);
+	background-repeat: repeat;
+	height:150px;
+	width: 100%;
+	clear: both;
+	margin-top: -150px;
+	position: relative;
+}
+#containerInfo {
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 300px;
+}
+	
+#strek2{
+	margin-bottom: 5px;
+	width: 300px;
+	height:3px;
+	background-color:#3F4444;
+}	
+#strekInfo1{
+	margin-bottom: 1px;
+	width: 150px;
+	height:3px;
+	background-color:#CCC;
+}	
+
+#info1{
+	padding-top:10px;
+	float:left;
+}
+
+
+/* CreateForms  -------------------------------------*/
+
+#containerForms {
+        background-image: url(../bilder/menybunn.png);
+        background-repeat: repeat;
+        height: 500px;
+        box-shadow: 0px 2px 6px #666666;
+}
+#createCourseSpace {
+        height: 20px;
+        width: 100%;
+}
+#createCourseContainer {
+        margin: 0 auto;
+        padding: 15px;
+        width: 820px;
+        background: rgba(205, 205, 205, 0.6);
+        box-shadow: 5px 2px 15px #000;
+        text-align: center;
+        border-radius: 13px;
+}
+
+.courseNameclass{
+	background: #FFF;
+	border: 3px solid #898989;
+        width: 300px;
+        height: 50px;
+        margin: 10px;
+        
+        color: #898989;
+        font-size: 25px;
+        font-weight:800;
+        padding-left: 5px;
+}
+
+.courseNameclass:focus {
+        border: 3px solid #222;
+        color: #555;
+}
+
+.courseNameclass:hover {
+        border: 3px solid #666;
+        color: #333;
+}
+
+#courseParticipant {
+    padding:10px;
+}
+
+
+#submitCreateCourse{
+	background-image: url(../bilder/button.png);
+        background-repeat: repeat-x;
+        border: none;
+	border-radius: 4px;
+        width: 210px;
+        height: 55px;
+        background-color: #48c83b;
+        color: #FFF;
+        font-size: 25px;
+        font-weight:900;
+        margin:20px;
+}
+#submitCreateCourse:hover {
+        background-color: #48c83b;
+        color: #ffdf09;
+}
+#submitCreateCourse:visited {
+        background-color: #48c83b;
+}
+#submitCreateCourse:active {
+        border: 3px solid #666;
+}
+
+/*
+.checkboxGroup:checked + .checkboxGroupText {
+        color: #000;
+        font-size: 25px;
+        font-weight:900;
+} */
+/* Checkboxs and Radio -------------------------------------*/
+
+/*Text*/
+.checkboxGroupText {
+        color: #454545;
+        font-size: 25px;
+        font-weight:700;
+        padding-right: 25px;
+}
+
+.regular-checkbox:checked + label:after .checkboxGroupText {
+    font-size: 28px;
+    color: #000;
+}
+
+
+/* Design */
+.regular-checkbox + label { }
+
+label {
+    display: inline;
+}
+ 
+.regular-checkbox {
+    display: none;
+}
+ 
+.regular-checkbox + label {
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    padding: 9px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+}
+ 
+.regular-checkbox + label:active, .regular-checkbox:checked + label:active {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+ 
+.regular-checkbox:checked + label {
+    background-color: #e9ecee;
+    border: 1px solid #adb8c0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+    color: #99a1a7;
+}
+ 
+.regular-checkbox:checked + label:after {
+    content: '\2714';
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    color: #99a1a7;
+}
+
+ 
+.big-checkbox + label {
+    padding: 18px;
+}
+ 
+.big-checkbox:checked + label:after {
+    font-size: 28px;
+    left: 6px;
+}
+ 
+.tag {
+    font-family: Arial, sans-serif;
+    width: 200px;
+    position: relative;
+    top: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    float: left;
+}
+ 
+.radio-1 {
+    width: 193px;
+}
+ 
+.button-holder {
+    float: left;
+}
+ 
+/* RADIO */
+ 
+.regular-radio {
+    display: none;
+}
+ 
+.regular-radio + label {
+    -webkit-appearance: none;
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    padding: 9px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+}
+ 
+.regular-radio:checked + label:after {
+    content: ' ';
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    position: absolute;
+    top: 3px;
+    background: #99a1a7;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+    text-shadow: 0px;
+    left: 3px;
+    font-size: 32px;
+}
+ 
+.regular-radio:checked + label {
+    background-color: #e9ecee;
+    color: #99a1a7;
+    border: 1px solid #adb8c0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+ 
+.regular-radio + label:active, .regular-radio:checked + label:active {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+ 
+.big-radio + label {
+    padding: 16px;
+}
+ 
+.big-radio:checked + label:after {
+    width: 24px;
+    height: 24px;
+    left: 4px;
+    top: 4px;
+}
+
+
+
+.button::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.button:before {
+  content: 'Select some files';
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.button:hover:before {
+  border-color: black;
+}
+.button:active:before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}

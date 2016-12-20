@@ -1,0 +1,217 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+	color: #32CD32;
+}
+
+/* Menu--------------------------------------------- */
+#headerMenu {
+	z-index: 100;
+	position:relative;
+	/*box-shadow: 0px 0.5px 10px #000;*/
+}
+#wolfSmall {
+	position:absolute;
+	top:80px;
+	left:25px;
+}
+
+#menuCourseNamediv{
+	position: absolute;
+	left: 50%;
+	top:0px;
+	width: 300px; 
+}
+
+#menuCourseNamediv h1{
+	position: absolute;
+	left: -25%;
+	padding-top: 5px;
+	font-family: Sans-serif, "Times New Roman", Times, serif;
+	font-size: 40px;
+	font-weight:600;
+	color: #D6D6D9;
+	text-align: center;
+}
+
+#menu {
+	margin-left: 32px;
+}
+
+#menu a {
+	/*background-image: url(divider.png);
+	background-repeat: no-repeat;
+	background-position: right;*/
+	margin-right: 32px;
+	line-height: 60px;
+	text-decoration: none;
+	font-family: Sans-serif, "Times New Roman", Times, serif;
+	font-size: 21px;
+	color: #D6D6D9;
+        
+}
+
+
+#toppRight{
+	position:absolute;
+	top:0px;
+	right:0;
+	padding-left: 32px;
+}
+#profilepic {
+	position:absolute;
+	top:7px;
+	right:20px;
+}
+
+#logOut {
+	position:absolute;
+	top:0px;
+	right:80px;
+}
+
+/* HeaderValg ------------------------------------- */
+
+#headerValg {
+	background-color: #000000;
+	background-repeat: repeat-x;
+	box-shadow: 0px 2px 6px #888888;
+	/* background-color:#d54208;
+	height: fit-content;
+	min-height: 100px;*/
+}
+
+#headerValgList {
+	height: 100px;
+	margin: 0 auto;
+	padding-left: 100px;
+	padding-right: 100px;
+	width: 700px;
+}
+
+#headerValgList a{
+	float: left;
+	list-style-type: none;
+	margin: 5px;
+	margin-top: 20px;
+	padding-top: 10px;
+	width: 170px;
+	height: 50px;
+        
+	/*background-color: #008CD7;*/
+	border-radius: 5px;
+	display: table; 
+	font-size: 30px;
+	font-weight:800;
+	text-decoration: none;
+	text-align: center;
+}
+
+#headerValgList a:link {
+    
+	background-color: #008CD7;
+	color: #FFF;
+}
+#headerValgList a:visited {
+	background-color: #008CD7;
+	color: #FFF;
+}
+#headerValgList a:hover {
+	background-color: #3366CC;
+}
+#headerValgList a:active {
+	color: #ff0033;
+}
+
+#headerValgNewCourse {
+        position:absolute;
+	top:80px;
+	right:20px;
+	width: 170px;
+	height: 60px;
+	background-color: #48c83b;
+	border-radius: 10px;
+	display: table; 
+}
+
+#headerValgNewCourse a:link {
+    color: #FFF;
+    font-size: 30px;
+    font-weight:800;
+    text-decoration: none;
+    display: table-cell; 
+    vertical-align: middle;
+    text-align: center;
+}
+#headerValgNewCourse a:hover {
+    background-color: #37b72a;
+    border-radius: 10px;
+}
+#headerValgNewCourse a:visited {
+    color: #FFF;
+}
+#headerValgNewCourse a:active {
+    color: #ff0033;
+}
+
+/* CourseValg ------------------------------------- */
+
+#courseValg {
+    background-image: url(../bilder/coursevalg3.png);
+    background-repeat: repeat-x;
+    box-shadow: 0px 10px 6px #888888;
+    /*
+    border-top-color: #3F4444;
+    border-top-width: 2px;
+    border-top-style: solid;
+    background-color:#d54208;
+    height: fit-content;
+    min-height: 100px;*/
+}
+
+#courseValgList {
+    height: 50px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 700px;
+}
+/*
+#courseValgList {
+	margin: 0 auto;
+	list-style-type: none;
+	height: 50px;
+	width: 650px;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+*/
+#courseValgList a {
+	/*background-image: url(divider.png);
+	background-repeat: no-repeat;
+	background-position: right;*/
+    float: left;
+	padding-right: 32px;
+	padding-left: 32px;
+	display: block;
+    height: 50px;
+	text-decoration: none;
+	font-family: Sans-serif, "Times New Roman", Times, serif;
+	font-size: 21px;
+	color: #D6D6D9;
+}
+#courseValgList a:hover {
+	background-color: rgba(51, 102, 204, 0.6);
+	color: #FFF;
+}
+#courseValgList a:hover:after {
+    content: '';
+    position: absolute;
+    top: 160px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid rgba(213, 66, 8, 1);
+}

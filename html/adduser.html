@@ -1,0 +1,88 @@
+<h1>Legge til ny student</h1>
+<form action="newuser.php" name="skjema" method="post" onsubmit="return valider_alle();">
+    <table>
+        <tr>
+            <td>Fornavn:</td>
+            <td> <input type="text" name="Fornavn" title="Skriv inn fornavn" onChange ="valider_Fornavn();"/></td>
+            <td><div id= "feilFornavn">*</div></td>
+        </tr>
+        <tr>
+            <td>Etternavn:</td>
+            <td> <input type="text" name="Etternavn" title="Skriv inn etternavn" onChange ="valider_Etternavn();"/></td>
+            <td><div id= "feilEtternavn">*</div></td>
+        </tr>
+        <tr>
+            <td>Brukernavn:</td>
+            <td> <input type="text" name="Brukernavn" title="Skriv inn brukernavn" onChange ="valider_Brukernavn();"/></td>
+            <td><div id= "feilBrukernavn">*</div></td>
+        </tr>
+        <tr>
+            <td>Epost:</td>
+            <td><input type="text" name="Epost" title="Skriv inn epost adresse" onChange ="valider_Epost();"/></td>
+            <td><div id= "feilEpost">*</div></td>
+        </tr>
+        <tr>
+            <td>Telefonnr:</td>
+            <td> <input type="text" name="Telefonnr" title="Skriv inn telefonnummer" onChange ="valider_Telefonnr();"/></td>
+            <td><div id= "feilTelefonnr">*</div></td>
+        </tr>
+        <tr>
+            <td>Adresse:</td>
+            <td> <input type="text" name="Adresse" title="Skriv inn adressen din" onChange ="valider_Adresse();"/></td>
+            <td><div id= "feilAdresse">*</div></td>
+        </tr>
+        <tr>
+            <td>Postnr:</td>
+            <td> <input type="text" name="Postnr" title="Skriv inn postnummer" onChange ="valider_Postnr();"/></td>
+            <td><div id= "feilPostnr">*</div></td>
+        </tr>
+        <tr>
+            <td>Poststed:</td>
+            <td> <input type="text" name="Poststed" title="Skriv inn poststed" onChange ="valider_Poststed();"/></td>
+            <td><div id= "feilPoststed">*</div></td>
+        </tr>
+        <tr>
+            <td>F&oslash;dselsnr:</td>
+            <td> <input type="text" name="Fodselsnr" title="Skriv inn fødselsnr" onChange ="valider_Fodselsnr();"/></td>
+            <td><div id= "feilFodselsnr">*</div></td>
+        </tr>
+        <tr>
+            <td>Passord lengde: 
+                <select name="length" title="lengde på generert passord">
+                    <option value="6">06</option>
+                    <option value="7">07</option>
+                    <option value="8">08</option>
+                    <option value="9">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                </select>
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Passord</td>
+            <td> <input type="password" name="Passord" title="Skriv inn passord" onChange ="valider_Passord();"/></td>
+            <td><div id= "feilPassord">*</div></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="Generer" onClick="javascript:formSubmit();"/></td>
+            <td><input type="reset" value="Clear"/></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <td><input type="submit" name="Bekreft" value="Bekreft"/></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="valider" value="Valider"/></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</form>

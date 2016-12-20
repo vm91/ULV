@@ -1,0 +1,104 @@
+html, body{
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#header{
+	padding: 0;
+	margin: 0;
+}
+
+
+#headerMenu 
+{
+		background-image: url(../bilder/bak.png);
+        z-index: 100;
+        position:relative;
+        height: 60px;
+}
+
+#headerMenu h1 {
+        padding-top: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+		font-size: 40px;
+        font-weight:600;
+		color: #D6D6D9;
+        text-align: center;
+}
+
+#container {
+        background-image: url(../bilder/backg.png);
+        background-repeat: repeat;
+        height: 700px;
+        box-shadow: 0px 200px 6px #091626;
+}
+
+#logo {
+
+        margin: 0 auto;
+        height: 250px;
+        width: 250px;
+        padding:0px;
+}
+
+#loggInnContainer {
+        margin: 0 auto;
+        padding: 15px;
+        height: 170px;
+        width: 570px;
+        background: rgba(205, 205, 205, 0.6);
+        box-shadow: 5px 2px 15px #000;
+        text-align: center;
+        border-radius: 13px;
+}
+.inn{
+		background: #FFF;
+		border: 3px solid #898989;
+        width: 300px;
+        height: 50px;
+        margin: 10px;
+        
+        color: #898989;
+		font-size: 25px;
+		font-weight:800;
+		padding-left: 5px;
+}
+
+.inn:focus {
+        border: 3px solid #222;
+        color: #555;
+}
+
+.inn:hover {
+        border: 3px solid #666;
+        color: #333;
+}
+
+#submitButton{
+		background-image: url(../bilder/button.png);
+        background-repeat: repeat-x;
+        border: none;
+		border-radius: 4px;
+        width: 125px;
+        height: 55px;
+        background-color: #48c83b;
+        color: #FFF;
+        font-size: 25px;
+        font-weight:900;
+}
+#submitButton:hover {
+        background-color: #48c83b;
+        color: #ffdf09;
+}
+#submitButton:visited {
+        background-color: #48c83b;
+}
+#submitButton:active {
+        border: 3px solid #666;
+}
